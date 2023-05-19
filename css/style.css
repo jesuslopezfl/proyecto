@@ -1,0 +1,31 @@
+/* Sin FLEXBOX deberiamos hacerlo asi para
+ mover elementos
+img, p {
+    display: inline-block;
+} 
+*/
+
+.contenedor {
+    display: flex;
+/* display: flex
+ ALINEA LOS ELEMENTOS o LOS HACE FLEXIBLES*/
+    /* justify-content:center; */
+    /* ORGANIZA LOS ELEMENTOS*/
+
+    /* justify-content: space-around; */
+    /* SEPARA LOS ELEMENTOS */
+
+    /* justify-content: space-between; */
+    /* PONE LOS ELEMENTOS QUE CUBRAN TODA LA LINEA */
+
+    /* justify-content: flex-end; */
+    /* PONE TODOS LOS ELEMENTOS A LA DERECHA DEL TODO */
+
+    /* justify-content: flex-start; */
+    /* LA POSICION POR DEFECTO */
+} 
+
+img{
+    width: 100px;
+    /* WIDTH: cambia el tamaño */
+}
